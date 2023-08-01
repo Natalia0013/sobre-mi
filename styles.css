@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* agrupar estilos por defecto */
+body, h1, h2, h3, p, ul, ol, li, img, video {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el body y el header */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef5ee; /* Verde claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #254c32; /* Verde oscuro */
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* Texto blanco */
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 36px;
+}
+
+/* Estilos para la introducción */
+.introduccion {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Estilos para el main y los artículos */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #208020; /* Verde medio */
+    margin-bottom: 10px;
+}
+
+section ul, section ol {
+    color: #333;
+}
+
+/* Estilos para las imágenes y el video */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.contiene-imagen, .contiene-video {
+    background-color: #d0e7d0; /* Verde claro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+video {
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #254c32; /* Verde oscuro */
+    text-align: center;
+    padding: 10px;
+    color: #fff; /* Texto blanco */
+    font-size: 14px;
+}
