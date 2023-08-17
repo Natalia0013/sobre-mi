@@ -1,0 +1,27 @@
+.calculadora {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d0f0c0; /* Color de fondo en tono verde . me gusta el verde*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* con sombra */
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* sombra en los elementos */
+}
+
+button {
+    background-color: #70a030; /* boton en tono verde mas oscuro */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #508020; /* cambio de color en el boton al pasar el cursor */
+}
